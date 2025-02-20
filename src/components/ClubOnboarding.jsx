@@ -22,8 +22,7 @@ const onboardingSteps = [
 const ClubOnboarding = () => {
     return (
         <section className="px-5 mb-12 font-[Martian_Mono]">
-            {/* TODO: Include background image */}
-            <div className="px-6 py-12 rounded-md">
+            <div className="onboarding px-6 py-12 rounded-lg shadow-md overflow-hidden">
                 <h2 className="text-4xl font-semibold tracking-tight mb-8">Your tech reading journey</h2>
                 <div className="flex flex-col gap-12">
                     {

@@ -11,8 +11,8 @@ const App = () => {
       <Hero />
       <ClubBenefits />
       <ClubOnboarding />
-      <Testimonial />
       <Pricing />
+      <Testimonial />
       <Footer />
     </>
   )
