@@ -1,12 +1,1 @@
 @import "tailwindcss";
-
-html {
-    scroll-behavior: smooth;
-}
-
-.hero,
-.onboarding {
-    background-image: url('src/assets/pattern-light-bg.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}

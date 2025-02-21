@@ -4,6 +4,7 @@ import Star from "./Star"
 
 const Footer = () => {
     return (
+        // TODO: set bg pattern for footer
         <footer className="footer bg-[#062630] text-white text-center px-5 py-10 rounded-t-xl">
             <div className="flex flex-col gap-10">
                 <p className="text-4xl font-semibold font-[Martian_Mono] leading-[1.3]">Ready to debug your reading list?</p>
@@ -21,13 +22,14 @@ const Footer = () => {
                             <Star />
                             <Star />
                         </div>   
-                        <p className="font-lg font-[Inter]">
+                        <p className="text-left font-lg font-[Inter]">
                             <span className="font-bold">200</span> 
                             <span>+ developers joined already</span>
                         </p>
                     </div>
                 </div>
                 <hr />
+                {/* TODO: Include current year */}
                 <p className="font-[Martian_Mono]">© - Tech Book Club</p>
             </div>
         </footer>

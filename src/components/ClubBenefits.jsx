@@ -11,7 +11,7 @@ const benefits = [
 
 const ClubBenefits = () => {
     return (
-        <section className="px-5 py-12 grid md:items-center md:grid-cols-2 md:gap-y-24 md:gap-x-12">
+        <section className="px-5 py-8 mb-24 grid md:items-center md:grid-cols-2 md:gap-y-24 md:gap-x-12">
             <div className="benefit1-textbox order-1 md:order-2">
                 <h2 className="text-4xl font-[Martian_Mono] font-semibold tracking-tighter mb-6 ">Read together, grow together</h2>
                 <ul className='flex flex-col gap-4 mb-6 md:mb-0'>
@@ -19,7 +19,7 @@ const ClubBenefits = () => {
                         return (
                             <li className="flex items-center gap-2" key={i}>
                                 <Check />
-                                <span className="text-xl">{benefit}</span>
+                                <span className="text-lg">{benefit}</span>
                             </li>
                         )
                     })}

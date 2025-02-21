@@ -21,7 +21,8 @@ const onboardingSteps = [
 
 const ClubOnboarding = () => {
     return (
-        <section className="px-5 mb-12 font-[Martian_Mono]">
+        // TODO: Fix bg image and gradient rendering
+        <section className="px-5 mb-28 font-[Martian_Mono]">
             <div className="onboarding px-6 py-12 rounded-lg shadow-md overflow-hidden">
                 <h2 className="text-4xl font-semibold tracking-tight mb-8">Your tech reading journey</h2>
                 <div className="flex flex-col gap-12">

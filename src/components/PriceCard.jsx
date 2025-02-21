@@ -1,4 +1,7 @@
+import Check from "./Check"
+
 const PriceCard = (props) => {
+    // TODO: Include bg gradient for pro price card
     return (
         <div className="p-6 font-[Martian_Mono] border-2 border-slate-300 rounded-md shadow-md flex flex-col gap-8">
             <div>
@@ -10,12 +13,12 @@ const PriceCard = (props) => {
             </div>
             <hr />
             <ul>
-                {/* TODO: Include check icons */}
                 {props.benefits.map((benefit, i) => {
                     return (
                         <li 
-                            className="text-slate-500 font-[Inter]" 
+                            className="text-slate-500 font-[Inter] flex items-center gap-2" 
                             key={i}>
+                                <Check />
                                 {benefit}
                         </li>
                     )
