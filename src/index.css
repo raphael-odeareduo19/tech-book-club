@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html {
+    scroll-behavior: smooth;
+}
+
 .hero,
 .onboarding {
     background-image: url('src/assets/pattern-light-bg.svg');

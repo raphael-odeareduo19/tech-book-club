@@ -15,7 +15,7 @@ const Hero = () => {
                     <p className="text-2xl font-normal">Turn your reading time into learning time with fellow tech enthusiasts. Get curated recommendations, join vibrant discussion, and level up your skills one chapter at a time.</p>
                     <a 
                         className="uppercase font-[Martian_Mono] text-lg font-semibold tracking-tighter bg-[#fff5ef] border-3 rounded-md p-4 flex items-center justify-center gap-8 shadow-lg hover:-translate-y-[2px] hover:shadow-xl transition-all duration-250 active:translate-y-[2px] active:opacity-70 active:shadow-none whitespace-nowrap" 
-                        href="#"
+                        href="#pricing"
                     >
                         <span>Review Membership Options</span>
                         <HiArrowNarrowDown />

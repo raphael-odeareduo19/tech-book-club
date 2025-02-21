@@ -25,7 +25,7 @@ const pricing = [
 
 const Pricing = () => {
     return (
-        <section className="px-5 mb-20">
+        <section className="px-5 mb-20" id="pricing">
             <div>
                 <h2 className="mb-10 text-5xl font-[Martian_Mono] font-semibold tracking-tight">Membership options</h2>
                 <div className="flex flex-col gap-8">

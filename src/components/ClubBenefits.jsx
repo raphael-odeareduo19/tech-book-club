@@ -1,4 +1,4 @@
-import { RxCheckbox } from "react-icons/rx";
+import Check from './Check'
 import Benefit1Img from '../assets/benefit1.png'
 import Benefit2Img from '../assets/benefit2.png'
 
@@ -17,9 +17,8 @@ const ClubBenefits = () => {
                 <ul className='flex flex-col gap-4 mb-6 md:mb-0'>
                     {benefits.map((benefit, i) => {
                         return (
-                            <li className="flex gap-2" key={i}>
-                                {/* TODO: Fix check icons */}
-                                <RxCheckbox size={24}/>
+                            <li className="flex items-center gap-2" key={i}>
+                                <Check />
                                 <span className="text-xl">{benefit}</span>
                             </li>
                         )
