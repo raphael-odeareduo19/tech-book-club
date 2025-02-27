@@ -7,8 +7,8 @@ const testimonialInfo = {
 
 const Testimonial = () => {
     return (
-        <section className="px-5 mb-24">
-            <div className="flex flex-col gap-6">
+        <section className="px-5 mb-24 md:text-center md:px-7">
+            <div className="flex flex-col gap-6 md:items-center">
                 <div className="flex gap-2">
                     <Star fill="goldenrod"/>
                     <Star fill="goldenrod"/>

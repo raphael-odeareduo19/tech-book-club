@@ -27,8 +27,8 @@ const Pricing = () => {
     return (
         <section className="px-5 mb-28" id="pricing">
             <div>
-                <h2 className="mb-10 text-5xl font-[Martian_Mono] font-semibold tracking-tight">Membership options</h2>
-                <div className="flex flex-col gap-8">
+                <h2 className="mb-10 text-4xl font-[Martian_Mono] font-semibold tracking-tigh md:text-center">Membership options</h2>
+                <div className="flex flex-col gap-8 md:gap-12 md:flex-row md:justify-center flew-wrap">
                     {pricing.map((price, i) => {
                         return (
                             <PriceCard 

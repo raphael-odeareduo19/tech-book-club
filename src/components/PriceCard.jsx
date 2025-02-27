@@ -1,9 +1,8 @@
 import Check from "./Check"
 
 const PriceCard = (props) => {
-    // TODO: Include bg gradient for pro price card
     return (
-        <div className="p-6 font-[Martian_Mono] border-2 border-slate-300 rounded-md shadow-md flex flex-col gap-8">
+        <div className={`p-6 font-[Martian_Mono] border-2 border-slate-300 rounded-md shadow-md flex flex-col gap-8 ${props.priceCategory === 'Pro' ? 'bg-linear-to-b from-[#fff5ef] to-sky-100 scale-110 hover:scale-115' : ''} hover:-translate-y-[4px] transition-all duration-500`}>
             <div>
                 <h3 className="price-category mb-4 text-3xl font-semibold tracking-tight">{props.priceCategory}</h3>
                 <p className="price-amount">
