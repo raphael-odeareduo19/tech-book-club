@@ -26,7 +26,7 @@ const pricing = [
 const Pricing = () => {
     return (
         <section className="px-5 mb-28" id="pricing">
-            <div>
+            <div className="max-w-[1200px] mx-auto">
                 <h2 className="mb-10 text-4xl font-[Martian_Mono] font-semibold tracking-tigh md:text-center">Membership options</h2>
                 <div className="flex flex-col gap-8 md:gap-12 md:flex-row md:justify-center flew-wrap">
                     {pricing.map((price, i) => {
